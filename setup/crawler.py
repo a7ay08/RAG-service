@@ -1,4 +1,4 @@
-# CELL 2: Write crawler.py 
+
 
 %%writefile src/crawler.py
 import os
