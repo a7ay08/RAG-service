@@ -1,0 +1,13 @@
+trafilatura
+beautifulsoup4
+hnswlib
+sentence-transformers
+torch
+transformers
+requests
+tqdm
+pandas
+pytest
+robotexclusionrulesparser
+accelerate
+matplotlib
