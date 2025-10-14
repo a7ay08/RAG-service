@@ -5,7 +5,7 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline to crawl
 ## Features & Instructions
 
 - Clone the repository and navigate: `git clone <repo_url> && cd <repo_folder>`
-- (Optional) Create and activate a virtual environment for isolation.
+-  Developed and tested in **Google Colab**, which allows GPU acceleration for embedding generation and answer generation.
 - Install dependencies: `pip install -r requirements.txt`
 - Project folders (`src/`, `data/`, `logs/`) are auto-created on setup.
 - **Crawl**: Use `WebCrawler(start_url, max_pages, max_depth)` to crawl websites; saves results in `data/crawled_documents.json`.
