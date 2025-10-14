@@ -1,0 +1,81 @@
+Loading embedding model...
+Loading generator model: flan-t5-large...
+Loading vector index...
+✅ Loaded 2148 chunks
+
+================================================================================
+
+📝 Question 1: Who is the Prime Minister of India?
+
+📊 Retrieved 0 chunks (threshold: 0.4)
+
+💬 Answer: I could not find relevant information in the crawled content to answer this question.
+
+📊 Metrics:
+   Confidence: none
+   Retrieval time: 43 ms
+   Generation time: 0 ms
+   Total time: 43 ms
+
+⚠️ No sources found (below similarity threshold)
+
+================================================================================
+
+📝 Question 2: What is Python?
+
+📊 Retrieved 10 chunks (threshold: 0.4)
+   Top similarity: 0.793
+   Lowest similarity: 0.639
+
+💬 Answer: a high-level, general-purpose programming language
+
+📊 Metrics:
+   Confidence: high
+   Chunks used: 10
+   Retrieval time: 22 ms
+   Generation time: 31206 ms
+   Total time: 31229 ms
+
+🔗 Sources (1 URLs):
+   1. [0.793] https://en.wikipedia.org/wiki/Python_(programming_language)
+      → (Learn how and when to remove these messages)  Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code rea...
+
+================================================================================
+
+📝 Question 3: When was Python 3.0 released?
+
+📊 Retrieved 10 chunks (threshold: 0.4)
+   Top similarity: 0.785
+   Lowest similarity: 0.652
+
+💬 Answer: 2008, was a major revision and not completely backward-compatible with earlier versions.
+
+📊 Metrics:
+   Confidence: high
+   Chunks used: 10
+   Retrieval time: 19 ms
+   Generation time: 24268 ms
+   Total time: 24287 ms
+
+🔗 Sources (1 URLs):
+   1. [0.785] https://en.wikipedia.org/wiki/Python_(programming_language)
+      → Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language. Python 3.0, released in 2008, was a major r...
+
+================================================================================
+
+📝 Question 4: What is the weather forecast for tomorrow in Tokyo?
+
+📊 Retrieved 0 chunks (threshold: 0.4)
+
+💬 Answer: I could not find relevant information in the crawled content to answer this question.
+
+📊 Metrics:
+   Confidence: none
+   Retrieval time: 20 ms
+   Generation time: 0 ms
+   Total time: 20 ms
+
+⚠️ No sources found (below similarity threshold)
+
+================================================================================
+✅ All questions processed! Results saved to data/qa_results.json
